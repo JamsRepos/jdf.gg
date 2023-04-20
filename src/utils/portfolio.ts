@@ -74,7 +74,7 @@ export const navbarSection: NavbarSectionType = {
 // * Hero Section
 
 export const heroSection: HeroSectionType = {
-  subtitle: 'Hi! i’m',
+  subtitle: 'Hey 👋! My name is',
   title: 'James Finch.',
   tagline: 'I create visually pleasing interfaces for the web.',
   description:
