@@ -76,7 +76,7 @@ export const navbarSection: NavbarSectionType = {
 export const heroSection: HeroSectionType = {
   subtitle: 'Hey 👋! My name is',
   title: 'James Finch.',
-  tagline: 'I create visually pleasing interfaces for the web.',
+  tagline: 'Building secure products with elegant solutions.',
   description:
     "A front-end developer turned product support engineer. Skilled in Craft CMS, Tailwind, NPM, and Webpack, I now specialize in Linux command line for cyber security. Passionate about problem-solving and learning, I'm an asset to any team.",
   // specialText: 'Currently available for remote job & freelance',
