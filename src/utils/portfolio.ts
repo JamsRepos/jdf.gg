@@ -20,32 +20,32 @@ import { getId } from './helper';
  */
 
 export const socialLinks: StringKeyValueType = {
-  twitter: 'https://twitter.com/vatsalsinghkv',
-  github: 'https://github.com/vatsalsinghkv',
-  linkedin: 'https://www.linkedin.com/in/vatsalsinghkv/',
+  twitter: 'https://twitter.com/JamsSocials',
+  github: 'https://github.com/LubricantJam',
+  linkedin: 'https://www.linkedin.com/in/james-finch-a3564615b/',
 };
 
 export const author = {
-  name: 'Vatsal Singh',
-  email: 'vatsalsinghkv@gmail.com',
+  name: 'James Finch',
+  email: 'portfolio@jdf.gg',
 };
 
 export const seoData = {
-  title: 'Vatsal Singh | Full-Stack Developer',
+  title: 'James Finch | Self-taught Web Developer & Dev Ops Engineer',
   description:
-    'Vatsal Singh is a full-stack developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'James Finch is a self-taught IT professional who prides himself on his vast experience and knowledge across various IT sectors.',
   author: author.name,
   image:
-    'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
-  url: 'https://vatsalsinghkv.vercel.app/',
+    'https://avatars.githubusercontent.com/u/1347620?v=4',
+  url: 'https://jdf.gg/',
   keywords: [
-    'Vatsal',
-    'Vatsal Singh',
-    '@vatsalsinghkv',
-    'vatsalsinghkv',
+    'James',
+    'James Finch',
+    '@JamsSocials',
+    'jamesfinch',
     'Portfolio',
-    'Vatsal Portfolio ',
-    'Vatsal Singh Portfolio',
+    'James Portfolio ',
+    'James Finch Portfolio',
   ],
 };
 
@@ -78,10 +78,8 @@ export const heroSection: HeroSectionType = {
   title: 'vatsal singh.',
   tagline: 'I create visually pleasing interfaces for the web.',
   description:
-    "I'm a passionate Full Stack web developer having an experience of web applications with React.js & Next.js with TypeScript & TailwindCSS and UI/UX designing.",
-  // description:
-  //   "I'm a passionate Full Stack web developer having an experience of web  applications with React.js, Next.js and Blockchain development on Ethereum, Solidity and Web3.js.",
-  specialText: 'Currently available for remote job & freelance',
+    "A front-end developer turned product support engineer. Skilled in Craft CMS, Tailwind, NPM, and Webpack, I now specialize in Linux command line for cyber security. Passionate about problem-solving and learning, I'm an asset to any team.",
+  // specialText: 'Currently available for remote job & freelance',
   // either button or simple text (information)
   cta: {
     title: 'see my resume',
@@ -375,20 +373,12 @@ export const socialSection: SocialSectionType = {
       url: socialLinks.github,
     },
     {
-      icon: 'mdi:instagram',
-      url: socialLinks.instagram,
-    },
-    {
       icon: 'lucide:twitter',
       url: socialLinks.twitter,
     },
     {
       icon: 'lucide:linkedin',
       url: socialLinks.linkedin,
-    },
-    {
-      icon: 'lucide:facebook',
-      url: socialLinks.facebook,
     },
   ],
 };
@@ -397,5 +387,5 @@ export const socialSection: SocialSectionType = {
 
 export const footerSection: FooterSectionType = {
   title: 'Design & Built by Vatsal Singh',
-  link: 'https://github.com/vatsalsinghkv/portfolio-website',
+  link: 'https://vatsalsinghkv.vercel.app/',
 };
