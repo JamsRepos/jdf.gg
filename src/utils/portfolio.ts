@@ -26,14 +26,14 @@ export const socialLinks: StringKeyValueType = {
 };
 
 export const author = {
-  name: 'James Finch',
+  name: 'James David Finch',
   email: 'portfolio@jdf.gg',
 };
 
 export const seoData = {
-  title: 'James Finch | Self-taught Web Developer & Dev Ops Engineer',
+  title: author.name + ' | Versatile IT Professional with Expertise in Web Development, Cyber Security, and IT Support.',
   description:
-    'James Finch is a self-taught IT professional who prides himself on his vast experience and knowledge across various IT sectors.',
+    author.name + ' is a versatile and self-taught IT professional with extensive experience across multiple sectors. From web development to cyber security and IT support, James’s broad skill set and passion for learning make him a valuable asset to any team.',
   author: author.name,
   image:
     'https://avatars.githubusercontent.com/u/1347620?v=4',
@@ -41,11 +41,13 @@ export const seoData = {
   keywords: [
     'James',
     'James Finch',
+    'James David Finch',
     '@JamsSocials',
     'jamesfinch',
     'Portfolio',
     'James Portfolio ',
     'James Finch Portfolio',
+    'James David Finch Portfolio',
   ],
 };
 
@@ -65,27 +67,27 @@ export const navbarSection: NavbarSectionType = {
     { name: 'projects', url: '/#projects' },
     { name: 'contact', url: '/#contact' },
   ],
-  cta: {
-    title: 'resume',
-    url: `/${resumeFileName}`,
-  },
+  // cta: {
+  //   title: 'resume',
+  //   url: `/${resumeFileName}`,
+  // },
 };
 
 // * Hero Section
 
 export const heroSection: HeroSectionType = {
   subtitle: 'Hey 👋! My name is',
-  title: 'James Finch.',
-  tagline: 'Building secure products with elegant solutions.',
+  title: author.name + '.',
+  tagline: 'Transforming businesses with innovative and secure IT solutions.',
   description:
-    "A front-end developer turned product support engineer. Skilled in Craft CMS, Tailwind, NPM, and Webpack, I now specialize in Linux command line for cyber security. Passionate about problem-solving and learning, I'm an asset to any team.",
+    "I am a former front-end developer and product support engineer, with skills in Craft CMS, Tailwind, NPM, and Webpack. I specialize in Unix systems, particularly in the command line, and have a strong focus on cyber security. I thrive on solving complex problems and have a passion for continuous learning, making me a valuable asset to any team.",
   // specialText: 'Currently available for remote job & freelance',
   // either button or simple text (information)
-  cta: {
-    title: 'see my resume',
-    url: `/${resumeFileName}`,
-    hideInDesktop: true,
-  },
+  // cta: {
+  //   title: 'see my resume',
+  //   url: `/${resumeFileName}`,
+  //   hideInDesktop: true,
+  // },
 };
 
 // * About Section
@@ -105,7 +107,7 @@ export const aboutSection: AboutSectionType = {
       'NPM',
     ],
   },
-  img: '/images/ai.jpg',
+  img: '/images/greyscale.jpg',
 };
 
 // * Skills Section
@@ -185,13 +187,39 @@ export const experienceSection: ExperienceSectionType = {
       company: 'DestinationCore',
       companyUrl: 'https://destinationcore.com/',
       role: 'Front-end Web Developer',
-      started: 'December 20200',
+      started: 'December 2020',
       upto: 'August 2022',
       tasks: [
-        'Built dynamic and modular websites for various shopping centres & districts around the United Kingdom using handover designs.',
-        'Constructed the folder structure and repository for our base repository for projects.',
-        'Assisted new team members with onboarding and training to advance the teams overall knowledge and confidence in our products.',
-        'Reviewed and assisted with changes on pull requests and workflows for various repositories.',
+        'Developed dynamic, modular websites for shopping centers and districts throughout the United Kingdom, using responsive layouts and clean, efficient code.',
+        'Spearheaded the development of a base repository and folder structure that served as the foundation for all projects, streamlining workflows and increasing team efficiency.',
+        'Mentored and trained new team members, sharing best practices and advancing the team’s overall knowledge and confidence in our products.',
+        'Reviewed and contributed to pull requests and workflows across multiple repositories, ensuring code quality and maintainability.',
+      ],
+    },
+    {
+      company: 'Town Close',
+      companyUrl: 'https://townclose.com',
+      role: 'IT Support Technician & Web Developer',
+      started: 'May 2015',
+      upto: 'January 2019',
+      tasks: [
+        'Collaborated on the development of a holiday program booking website, using Stripe payment integration to enable families to easily book and pay for their children’s attendance.',
+        'Cultivated strong interpersonal skills while providing effective support to a diverse range of users across different generations.',
+        'Thrived in a high-pressure environment, providing essential technical support to teachers and staff, ensuring that their needs were met and issues resolved in a timely and efficient manner.',
+        'Managed over 300 Windows users, utilizing Active Directory and other Microsoft products to provide effective moderation and troubleshooting services.',
+      ],
+    },
+    {
+      company: 'NexusNation',
+      companyUrl: 'https://web.archive.org/web/20201122115314/https://nexusnation.gg/',
+      role: 'Founder & Lead Developer',
+      started: 'August 2013',
+      upto: 'June 2021',
+      tasks: [
+        'Developed and managed bespoke online game servers that served over 1.5 million unique users, providing a unique gaming experience and fostering a loyal community.',
+        'Built a custom administration panel and statistics system that allowed the staff team to easily maintain the servers and track their performance, even when working remotely.',
+        'Managed a team of 20 staff members, developing strong leadership and hospitality skills while ensuring that the team was meeting its goals and targets.',
+        'Gained valuable experience with Unix systems, configuring firewalls to protect against Layer7 attacks and ensuring the security and stability of the servers.',
       ],
     },
   ],
@@ -211,6 +239,15 @@ export const projectsSection: ProjectsSectionType = {
       year: 2020,
       tags: ['HTML5', 'Bootstrap', 'PHP'],
     },
+    {
+      id: getId(),
+      name: 'Nexus League Website',
+      url: '/images/NexusLeague.jpg',
+      repo: 'https://github.com/NexusLeague',
+      img: '/images/NexusLeague.jpg',
+      year: 2020,
+      tags: ['HTML5', 'Bootstrap', 'Python'],
+    },
   ],
 };
 
@@ -220,8 +257,8 @@ export const contactSection: ContactSectionType = {
   title: 'get in touch',
   subtitle: "Want to talk?",
   paragraphs: [
-    'I’m not currently looking for new opportunities but I thank you for considering me.',
-    'I am not on a lot of social media sites, so if you would like to just chat then reach out!',
+    'While I’m not currently seeking new opportunities, I appreciate your interest in my work. If you’d like to chat or have any questions, please don’t hesitate to get in touch.',
+    'You can reach me directly by clicking the button below. Alternatively, if you prefer to chat informally, feel free to drop me a message on my LinkedIn, listed on the left.',
   ],
   link: `mailto:${author.email}`,
 };

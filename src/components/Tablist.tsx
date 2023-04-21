@@ -21,11 +21,11 @@ const Tablist = ({ experiences }: Props) => {
   const sliderStyle =
     windowWidth <= sm
       ? {
-          left: `calc(${activeExperience}*120px)`,
-        }
+        left: `calc(${activeExperience}*120px)`,
+      }
       : {
-          top: `calc(${activeExperience}*2.5rem)`,
-        };
+        top: `calc(${activeExperience}*2.5rem)`,
+      };
 
   return (
     <div className="flex flex-col sm:flex-row text-sm md:text-base gap-6 md:gap-10 min-h-[250px]">
@@ -34,9 +34,8 @@ const Tablist = ({ experiences }: Props) => {
         {experiences.map(({ company }, i) => (
           <button
             key={getId()}
-            className={`h-10 min-w-[120px] sm:w-auto sm:px-5 sm:!text-left capitalize hover:bg-accent-light hover:text-accent focus:outline-none focus:bg-accent-light focus:text-accent ${
-              i === activeExperience ? 'text-accent' : ''
-            }`}
+            className={`h-10 min-w-[120px] sm:w-auto sm:px-5 sm:!text-left capitalize hover:bg-accent-light hover:text-accent focus:outline-none focus:bg-accent-light focus:text-accent ${i === activeExperience ? 'text-accent' : ''
+              }`}
             onClick={() => setActiveExperience(i)}
           >
             {company}

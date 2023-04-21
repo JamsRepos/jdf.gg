@@ -15,7 +15,7 @@ import useWindowWidth from '../hooks/use-window-width';
 
 const hideNavWhileScrolling = ({
   id = 'navbar',
-  offset = 100,
+  offset = 0,
   when = true,
 }: {
   id?: string;
