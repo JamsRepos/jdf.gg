@@ -67,10 +67,11 @@ export const navbarSection: NavbarSectionType = {
     { name: 'projects', url: '/#projects' },
     { name: 'contact', url: '/#contact' },
   ],
-  // cta: {
-  //   title: 'resume',
-  //   url: `/${resumeFileName}`,
-  // },
+  cta: {
+    title: 'CV Coming Soon',
+    url: `#`,
+    // url: `/${resumeFileName}`,
+  },
 };
 
 // * Hero Section
