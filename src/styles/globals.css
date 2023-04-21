@@ -14,26 +14,26 @@
     /* --color-dark-3: #a2a2a2; */
 
     /* Light Theme */
-    --color-bg: theme(colors.slate.50);
+    --color-bg: theme(colors.zinc.300);
     --color-bg-secondary: theme(colors.white);
-    --color-accent: theme(colors.sky.500);
-    --color-accent-light: theme(colors.sky.500/0.1);
-    --color-text: theme(colors.slate.600);
-    --color-dark-1: theme(colors.slate.900);
-    --color-dark-2: theme(colors.slate.700);
-    --color-dark-3: theme(colors.slate.300);
+    --color-accent: theme(colors.blue.600);
+    --color-accent-light: theme(colors.blue.600/0.1);
+    --color-text: theme(colors.zinc.600);
+    --color-dark-1: theme(colors.zinc.900);
+    --color-dark-2: theme(colors.zinc.700);
+    --color-dark-3: theme(colors.zinc.300);
   }
 
   /* Dark Theme */
   .dark {
-    --color-bg: theme(colors.slate.900);
-    --color-bg-secondary: theme(colors.slate.800);
-    --color-accent: theme(colors.sky.400);
-    --color-accent-light: theme(colors.sky.400/0.1);
-    --color-text: theme(colors.slate.400);
-    --color-dark-1: theme(colors.slate.200);
-    --color-dark-2: theme(colors.slate.300);
-    --color-dark-3: theme(colors.slate.700);
+    --color-bg: theme(colors.zinc.900);
+    --color-bg-secondary: theme(colors.zinc.800);
+    --color-accent: theme(colors.blue.400);
+    --color-accent-light: theme(colors.blue.400/0.1);
+    --color-text: theme(colors.zinc.400);
+    --color-dark-1: theme(colors.zinc.200);
+    --color-dark-2: theme(colors.zinc.300);
+    --color-dark-3: theme(colors.zinc.700);
   }
 
   @font-face {
