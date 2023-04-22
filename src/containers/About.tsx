@@ -5,7 +5,8 @@ import { aboutSection, author } from '../utils/portfolio';
 import { getId } from '../utils/helper';
 
 const About = () => {
-  const { title, img, list } = aboutSection;
+  const { title, img } = aboutSection;
+  // const { title, img, list } = aboutSection;
   // To avoid hydration error
   const [domLoaded, setDomLoaded] = useState(false);
 
@@ -49,7 +50,7 @@ const About = () => {
             adaptable, I'm excited to see where my IT journey takes me next.
           </p>
 
-          {list && (
+          {/* {list && (
             <>
               <p>{list.title}</p>
               <ul className="text-sm gap-1 grid grid-cols-2 w-2/3">
@@ -58,7 +59,7 @@ const About = () => {
                 ))}
               </ul>
             </>
-          )}
+          )} */}
         </div>
         <HeroImage src={img} alt={author.name} />
       </main>
