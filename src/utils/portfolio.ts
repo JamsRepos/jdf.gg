@@ -77,11 +77,11 @@ export const navbarSection: NavbarSectionType = {
 // * Hero Section
 
 export const heroSection: HeroSectionType = {
-  subtitle: 'Hey 👋! My name is',
+  subtitle: 'Hey 👋! My name is...',
   title: author.name + '.',
   tagline: 'Transforming businesses with innovative and secure IT solutions.',
   description:
-    "I am a former front-end developer and product support engineer, with skills in Craft CMS, Tailwind, NPM, and Webpack. I specialize in Unix systems, particularly in the command line, and have a strong focus on cyber security. I thrive on solving complex problems and have a passion for continuous learning, making me a valuable asset to any team.",
+    "As a former front-end developer turned product support engineer, I specialize in Unix systems and cyber security. Skilled in Craft CMS, Tailwind, NPM, and Webpack, I bring a passion for problem-solving and continuous learning to any team.",
   // specialText: 'Currently available for remote job & freelance',
   // either button or simple text (information)
   // cta: {

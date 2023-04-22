@@ -16,8 +16,8 @@
     /* Light Theme */
     --color-bg: theme(colors.zinc.300);
     --color-bg-secondary: theme(colors.white);
-    --color-accent: theme(colors.blue.600);
-    --color-accent-light: theme(colors.blue.600/0.1);
+    --color-accent: theme(colors.emerald.800);
+    --color-accent-light: theme(colors.emerald.800/0.1);
     --color-text: theme(colors.zinc.600);
     --color-dark-1: theme(colors.zinc.900);
     --color-dark-2: theme(colors.zinc.700);
@@ -26,10 +26,10 @@
 
   /* Dark Theme */
   .dark {
-    --color-bg: theme(colors.zinc.900);
+    --color-bg: theme(colors.gray.900);
     --color-bg-secondary: theme(colors.zinc.800);
-    --color-accent: theme(colors.blue.400);
-    --color-accent-light: theme(colors.blue.400/0.1);
+    --color-accent: theme(colors.emerald.400);
+    --color-accent-light: theme(colors.emerald.400/0.1);
     --color-text: theme(colors.zinc.400);
     --color-dark-1: theme(colors.zinc.200);
     --color-dark-2: theme(colors.zinc.300);
