@@ -36,7 +36,7 @@ export const seoData = {
     author.name + ' is a versatile and self-taught IT professional with extensive experience across multiple sectors. From web development to cyber security and IT support, James’s broad skill set and passion for learning make him a valuable asset to any team.',
   author: author.name,
   image:
-    'https://avatars.githubusercontent.com/u/1347620?v=4',
+    '/images/greyscale.jpg',
   url: 'https://jdf.gg/',
   keywords: [
     'James',
