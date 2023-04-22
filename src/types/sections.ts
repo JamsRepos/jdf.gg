@@ -27,10 +27,10 @@ export interface HeroSectionType extends Section {
 }
 
 export interface AboutSectionType extends Section {
-  list: {
-    title: string;
-    items: string[];
-  };
+  // list: {
+  //   title: string;
+  //   items: string[];
+  // };
   img: string;
 }
 
