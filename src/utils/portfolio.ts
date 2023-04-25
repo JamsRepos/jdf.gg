@@ -68,9 +68,9 @@ export const navbarSection: NavbarSectionType = {
     { name: 'contact', url: '/#contact' },
   ],
   cta: {
-    title: 'CV Coming Soon',
-    url: `#`,
-    // url: `/${resumeFileName}`,
+    title: 'Curriculum Vitae',
+    // url: `#`,
+    url: `/${resumeFileName}`,
   },
 };
 
