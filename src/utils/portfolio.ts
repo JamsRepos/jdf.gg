@@ -204,7 +204,7 @@ export const experienceSection: ExperienceSectionType = {
       started: 'May 2015',
       upto: 'January 2019',
       tasks: [
-        'Collaborated on the development of a holiday program booking website, using Stripe payment integration to enable families to easily book and pay for their children’s attendance.',
+        'Collaborated on the development of a holiday program booking website, using Sage Pay payment integration to enable families to easily book and pay for their children’s attendance.',
         'Cultivated strong interpersonal skills while providing effective support to a diverse range of users across different generations.',
         'Thrived in a high-pressure environment, providing essential technical support to teachers and staff, ensuring that their needs were met and issues resolved in a timely and efficient manner.',
         'Managed over 300 Windows users, utilizing Active Directory and other Microsoft products to provide effective moderation and troubleshooting services.',
