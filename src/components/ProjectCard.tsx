@@ -39,7 +39,7 @@ const ProjectCard = ({
             height={300}
             placeholder="blur"
             blurDataURL={blurImageURL}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-top"
           />
         </div>
         <div className="p-4 py-3 space-y-1">

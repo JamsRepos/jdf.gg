@@ -259,6 +259,15 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
+      name: 'Portfolio',
+      url: '/images/Portfolio.jpg',
+      repo: 'https://github.com/LubricantJam/Old-Portfolio',
+      img: '/images/Portfolio.jpg',
+      year: 2022,
+      tags: ['HTML5', 'Tailwind', 'Craft CMS'],
+    },
+    {
+      id: getId(),
       name: 'Paycord',
       url: '/images/Paycord.jpg',
       repo: 'https://github.com/WardPearce/Paycord',
@@ -268,7 +277,7 @@ export const projectsSection: ProjectsSectionType = {
     },
     {
       id: getId(),
-      name: 'NexusNation Website',
+      name: 'NexusNation',
       url: '/images/NexusNation.jpg',
       repo: 'https://github.com/LubricantJam/NexusNation-Website',
       img: '/images/NexusNation.jpg',
@@ -277,7 +286,7 @@ export const projectsSection: ProjectsSectionType = {
     },
     {
       id: getId(),
-      name: 'Nexus League Website',
+      name: 'Nexus League',
       url: '/images/NexusLeague.jpg',
       repo: 'https://github.com/NexusLeague',
       img: '/images/NexusLeague.jpg',
@@ -286,9 +295,9 @@ export const projectsSection: ProjectsSectionType = {
     },
     {
       id: getId(),
-      name: 'Nodeblast Website',
+      name: 'Nodeblast',
       url: '/images/Nodeblast.jpg',
-      repo: 'https://web.archive.org/web/20201122115314/https://nexusnation.gg/',
+      repo: 'https://web.archive.org/web/20160819124041/https://nodeblast.com/',
       img: '/images/Nodeblast.jpg',
       year: 2015,
       tags: ['HTML5', 'Bootstrap', 'PHP'],
