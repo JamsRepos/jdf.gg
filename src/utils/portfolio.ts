@@ -32,11 +32,9 @@ export const author = {
 
 export const seoData = {
   title: author.name + ' | Versatile IT Professional with Expertise in Web Development, Cyber Security, and IT Support.',
-  description:
-    author.name + ' is a versatile and self-taught IT professional with extensive experience across multiple sectors. From web development to cyber security and IT support, James’s broad skill set and passion for learning make him a valuable asset to any team.',
+  description: author.name + ' is a versatile and self-taught IT professional with extensive experience across multiple sectors. From web development to cyber security and IT support, James’s broad skill set and passion for learning make him a valuable asset to any team.',
   author: author.name,
-  image:
-    '/images/greyscale.jpg',
+  image: '/images/greyscale.jpg',
   url: 'https://jdf.gg/',
   keywords: [
     'James',
@@ -45,7 +43,7 @@ export const seoData = {
     '@JamsSocials',
     'jamesfinch',
     'Portfolio',
-    'James Portfolio ',
+    'James Portfolio',
     'James Finch Portfolio',
     'James David Finch Portfolio',
   ],
