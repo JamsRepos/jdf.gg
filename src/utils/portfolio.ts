@@ -263,7 +263,7 @@ export const projectsSection: ProjectsSectionType = {
       url: '/images/Paycord.jpg',
       repo: 'https://github.com/WardPearce/Paycord',
       img: '/images/Paycord.jpg',
-      year: 2020,
+      year: 2022,
       tags: ['HTML5', 'Tailwind', 'Python'],
     },
     {
@@ -281,7 +281,7 @@ export const projectsSection: ProjectsSectionType = {
       url: '/images/NexusLeague.jpg',
       repo: 'https://github.com/NexusLeague',
       img: '/images/NexusLeague.jpg',
-      year: 2020,
+      year: 2018,
       tags: ['HTML5', 'Bootstrap', 'Python'],
     },
     {
