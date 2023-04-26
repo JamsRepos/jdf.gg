@@ -223,6 +223,32 @@ export const experienceSection: ExperienceSectionType = {
         'Gained valuable experience with Unix systems, configuring firewalls to protect against Layer7 attacks and ensuring the security and stability of the servers.',
       ],
     },
+    {
+      company: 'NexusRoleplay',
+      companyUrl: 'https://github.com/LubricantJam/Nexus-Roleplay',
+      role: 'Network Owner',
+      started: 'December 2015',
+      upto: 'December 2016',
+      tasks: [
+        'Created and maintained a FiveM roleplay server operating on Grand Theft Auto V, serving hundreds of players and accumulating over 10,000 users.',
+        'Utilized Lua, HTML, CSS, and JS to develop custom front-end UIs that communicate with server-side Lua to save data into a MySQL database.',
+        'Implemented a self-coded rewards and donation system to generate income and provide perks for players.',
+        'Developed a custom application system as an all-in-one solution, enabling the monitoring, editing, and responding to staff responses across multiple teams.',
+      ],
+    },
+    {
+      company: 'Nodeblast',
+      companyUrl: 'https://web.archive.org/web/20160819124041/https://nodeblast.com/',
+      role: 'Director & Lead Technician',
+      started: 'December 2015',
+      upto: 'December 2016',
+      tasks: [
+        'Provided live support to clients and expertly resolved server issues, resulting in world-class quality hosting services.',
+        'Successfully captured the majority of the market share for server hosting in the popular game Garry’s Mod and other Source Engine games.',
+        'Implemented automated systems for updating game servers, streamlining the update process and reducing downtime for clients. Utilized GitHub for version control and to ensure seamless deployment of updates.',
+        'Demonstrated proficiency in installing and interlinking various systems, including cPanel, WHMCS, and TCAdmin.',
+      ],
+    },
   ],
 };
 
@@ -234,9 +260,9 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'NexusNation Website',
-      url: 'https://web.archive.org/web/20201122115314/https://nexusnation.gg/',
+      url: 'https://github.com/LubricantJam/NexusNation-Website',
       repo: 'https://github.com/LubricantJam/NexusNation-Website',
-      img: '/images/NexusNation.png',
+      img: '/images/NexusNation.jpg',
       year: 2020,
       tags: ['HTML5', 'Bootstrap', 'PHP'],
     },
@@ -248,6 +274,15 @@ export const projectsSection: ProjectsSectionType = {
       img: '/images/NexusLeague.jpg',
       year: 2020,
       tags: ['HTML5', 'Bootstrap', 'Python'],
+    },
+    {
+      id: getId(),
+      name: 'Nodeblast Website',
+      url: '/images/Nodeblast.jpg',
+      repo: 'https://web.archive.org/web/20201122115314/https://nexusnation.gg/',
+      img: '/images/Nodeblast.jpg',
+      year: 2015,
+      tags: ['HTML5', 'Bootstrap', 'PHP'],
     },
   ],
 };
