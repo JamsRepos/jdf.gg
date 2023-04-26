@@ -155,9 +155,9 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/cloudinfra.json',
       },
       points: [
-        'Deploying & configuring cloud servers/baremetal linux servers.',
+        'Deploying & configuring cloud servers/bare-metal linux servers.',
         'Deploying & configuring web hosting environments.',
-        'Database magment using Mongo, Redis & MySQL.',
+        'Database management using Mongo, Redis & MySQL.',
       ],
       softwareSkills: [
         { name: 'MySQL', icon: 'vscode-icons:file-type-mysql' },
