@@ -23,15 +23,7 @@ const About = () => {
             Hi, I'm {author.name}, a versatile IT professional with a passion for
             learning and staying up-to-date with emerging technologies. While
             building my own projects, I discovered a love for front-end development
-            and honed my skills in Craft CMS, Tailwind, NPM, and Webpack while
-            working at &#8203;
-            <Link
-              href="https://destinationcore.com/"
-              target="_blank"
-              className="text-accent"
-            >
-              DestinationCore
-            </Link>.
+            and honed my skills in Craft CMS, Tailwind, NPM, and Webpack.
           </p>
 
           <p>
