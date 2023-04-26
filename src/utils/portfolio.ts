@@ -259,8 +259,17 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
+      name: 'Paycord',
+      url: '/images/Paycord.jpg',
+      repo: 'https://github.com/WardPearce/Paycord',
+      img: '/images/Paycord.jpg',
+      year: 2020,
+      tags: ['HTML5', 'Tailwind', 'Python'],
+    },
+    {
+      id: getId(),
       name: 'NexusNation Website',
-      url: 'https://github.com/LubricantJam/NexusNation-Website',
+      url: '/images/NexusNation.jpg',
       repo: 'https://github.com/LubricantJam/NexusNation-Website',
       img: '/images/NexusNation.jpg',
       year: 2020,
