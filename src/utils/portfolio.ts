@@ -20,9 +20,9 @@ import { getId } from './helper';
  */
 
 export const socialLinks: StringKeyValueType = {
-  twitter: 'https://twitter.com/JamsSocials',
-  github: 'https://github.com/LubricantJam',
-  linkedin: 'https://www.linkedin.com/in/james-finch-a3564615b/',
+  twitter: 'https://twitter.com/JamsPosts',
+  github: 'https://github.com/JamsRepos',
+  linkedin: 'https://www.linkedin.com/in/james-david-finch/',
 };
 
 export const author = {
