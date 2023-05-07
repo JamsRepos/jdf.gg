@@ -36,15 +36,6 @@
 
 [![My Portfolio](https://raw.githubusercontent.com/JamsRepos/jdf.gg/main/public/images/projects/Site.jpg)](https://jdf.gg/)
 
-## Sections
-
-- Hero
-- About
-- What I Do
-- Where I've Worked
-- My Projects
-- Get in Touch
-
 ## How To Host
 
 ###### To run this application locally, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [yarn](https://yarnpkg.com) installed on your computer).
