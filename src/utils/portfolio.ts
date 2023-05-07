@@ -79,7 +79,7 @@ export const heroSection: HeroSectionType = {
   title: author.name + '.',
   tagline: 'Transforming businesses with innovative and secure IT solutions.',
   description:
-    "As a former front-end developer turned product support engineer, I specialize in Unix systems and cyber security. Skilled in Craft CMS, Tailwind, NPM, and Webpack, I bring a passion for problem-solving and continuous learning to any team.",
+    "As a former front-end developer turned cyber security engineer, I specialize in Unix systems and cyber security. Skilled in Craft CMS, Tailwind, NPM, and Webpack, I bring a passion for problem-solving and continuous learning to any team.",
   // specialText: 'Currently available for remote job & freelance',
   // either button or simple text (information)
   // cta: {
