@@ -183,6 +183,15 @@ export const experienceSection: ExperienceSectionType = {
   title: "Where I've Worked",
   experiences: [
     {
+      company: 'Proofpoint',
+      companyUrl: 'https://proofpoint.com/',
+      role: 'Product Support Engineer',
+      started: 'June 2023',
+      upto: 'Present',
+      tasks: [
+      ],
+    },
+    {
       company: 'DestinationCore',
       companyUrl: 'https://destinationcore.com/',
       role: 'Front-end Web Developer',
