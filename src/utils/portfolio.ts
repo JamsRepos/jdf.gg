@@ -189,6 +189,7 @@ export const experienceSection: ExperienceSectionType = {
       started: 'June 2023',
       upto: 'Present',
       tasks: [
+        'Details to follow, currently within the training phase.'
       ],
     },
     {
