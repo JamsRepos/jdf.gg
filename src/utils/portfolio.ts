@@ -193,7 +193,7 @@ export const experienceSection: ExperienceSectionType = {
       ],
     },
     {
-      company: 'DestinationCore',
+      company: 'Destination Core',
       companyUrl: 'https://destinationcore.com/',
       role: 'Front-end Web Developer',
       started: 'December 2020',
@@ -232,7 +232,7 @@ export const experienceSection: ExperienceSectionType = {
       ],
     },
     {
-      company: 'NexusRoleplay',
+      company: 'Nexus Roleplay',
       companyUrl: 'https://github.com/JamsRepos/Nexus-Roleplay',
       role: 'Network Owner',
       started: 'December 2015',
