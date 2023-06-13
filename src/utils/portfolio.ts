@@ -189,7 +189,10 @@ export const experienceSection: ExperienceSectionType = {
       started: 'June 2023',
       upto: 'Present',
       tasks: [
-        'Details to follow, currently within the training phase.'
+        'Deliver outstanding Tier 1 technical support to administrators and enterprise-level partners, promptly resolving complex issues through effective communication channels such as phone, web-based tools, and email.',
+        'Leverage my expertise in email systems, networking, and cybersecurity to analyze and troubleshoot software problems, ensuring accurate and efficient resolutions.',
+        'Act as a trusted advisor to customers, offering guidance on the optimal utilization of our products and addressing specific systems issues to enhance their overall experience.',
+        'Collaborate with cross-functional teams and serve as a liaison between customers and various support tiers, managing product escalations and facilitating seamless installations and configurations.',
       ],
     },
     {
