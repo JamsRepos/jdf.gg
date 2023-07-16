@@ -238,8 +238,8 @@ export const experienceSection: ExperienceSectionType = {
       company: 'Nexus Roleplay',
       companyUrl: 'https://github.com/JamsRepos/Nexus-Roleplay',
       role: 'Network Owner',
-      started: 'December 2015',
-      upto: 'December 2016',
+      started: 'January 2020',
+      upto: 'December 2020',
       tasks: [
         'Created and maintained a FiveM roleplay server operating on Grand Theft Auto V, serving hundreds of players and accumulating over 10,000 users.',
         'Utilized Lua, HTML, CSS, and JS to develop custom front-end UIs that communicate with server-side Lua to save data into a MySQL database.',
