@@ -187,12 +187,12 @@ export const experienceSection: ExperienceSectionType = {
       companyUrl: 'https://proofpoint.com/',
       role: 'Product Support Engineer',
       started: 'June 2023',
-      upto: 'Present',
+      upto: 'August 2023',
       tasks: [
-        'Deliver outstanding Tier 1 technical support to administrators and enterprise-level partners, promptly resolving complex issues through effective communication channels such as phone, web-based tools, and email.',
-        'Leverage my expertise in email systems, networking, and cybersecurity to analyze and troubleshoot software problems, ensuring accurate and efficient resolutions.',
-        'Act as a trusted advisor to customers, offering guidance on the optimal utilization of our products and addressing specific systems issues to enhance their overall experience.',
-        'Collaborate with cross-functional teams and serve as a liaison between customers and various support tiers, managing product escalations and facilitating seamless installations and configurations.',
+        'Delivered outstanding Tier 1 technical support to administrators and enterprise-level partners, promptly resolved complex issues through effective communication channels such as phone, web-based tools, and email.',
+        'Leveraged my expertise in email systems, networking, and cybersecurity to analyze and troubleshoot software problems, ensuring accurate and efficient resolutions.',
+        'Acted as a trusted advisor to customers, offered guidance on the optimal utilization of our products, and addressed specific systems issues to enhance their overall experience.',
+        'Collaborated with cross-functional teams and served as a liaison between customers and various support tiers, managed product escalations, and facilitated seamless installations and configurations.',
       ],
     },
     {
