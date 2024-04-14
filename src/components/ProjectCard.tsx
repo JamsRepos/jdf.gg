@@ -46,20 +46,32 @@ const ProjectCard = ({
           <div className="flex justify-between items-center">
             <p className="text-xs capitalize font-mono">{tags.join(' | ')}</p>
             <div className="flex items-center space-x-1.5">
-              <a
-                href={repo}
-                className="block hover:text-accent duration-200"
-                target="_blank"
-              >
-                <Icon icon="tabler:brand-github" width={20} height={20} />
-              </a>
-              <a
-                href={url}
-                className="block hover:text-accent duration-200"
-                target="_blank"
-              >
-                <Icon icon="ci:external-link" width={22} height={22} />
-              </a>
+              {repo && (
+                <a
+                  href={repo}
+                  className="block hover:text-accent duration-200"
+                  target="_blank"
+                >
+                  <Icon icon="tabler:brand-github" width={20} height={20} />
+                </a>
+              )}
+              {url ? (
+                <a
+                  href={url}
+                  className="block hover:text-accent duration-200"
+                  target="_blank"
+                >
+                  <Icon icon="ci:external-link" width={22} height={22} />
+                </a>
+              ) : (
+                <a
+                  href={img}
+                  className="block hover:text-accent duration-200"
+                  target="_blank"
+                >
+                  <Icon icon="akar-icons:image" width={22} height={22} />
+                </a>
+              )}
             </div>
           </div>
           <h4 className="flex justify-between group-hover:text-accent capitalize font-medium duration-200">

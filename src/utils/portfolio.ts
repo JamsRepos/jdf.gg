@@ -92,27 +92,14 @@ export const heroSection: HeroSectionType = {
 // * About Section
 
 export const aboutSection: AboutSectionType = {
-  title: 'About me',
-  // Paragraphs need to be changed from containers/About.tsx
-  // Because it wasn't possible to insert anchor tags like this
-  // list: {
-  //   title: 'Here are a few technologies I’ve been working with recently:',
-  //   items: [
-  //     'Docker',
-  //     'Zero Trust',
-  //     'Linux CLI',
-  //     'Craft CMS',
-  //     'Tailwind CSS',
-  //     'NPM',
-  //   ],
-  // },
+  title: 'Who I Am',
   img: '/images/portraits/greyscale.jpg',
 };
 
 // * Skills Section
 
 export const skillsSection: SkillsSectionType = {
-  title: 'What I Do',
+  title: 'What I\'ve Used',
   skills: [
     {
       id: getId(),
@@ -180,7 +167,7 @@ export const skillsSection: SkillsSectionType = {
 // * Experience Section
 
 export const experienceSection: ExperienceSectionType = {
-  title: "Where I've Worked",
+  title: 'Where I\'ve Worked',
   experiences: [
     {
       company: 'Proofpoint',
@@ -266,21 +253,27 @@ export const experienceSection: ExperienceSectionType = {
 // * Projects Section
 
 export const projectsSection: ProjectsSectionType = {
-  title: 'my projects',
+  title: 'What I\'ve Done',
   projects: [
     {
       id: getId(),
+      name: 'Wizarding Cards',
+      url: 'https://wizarding.cards/',
+      img: '/images/projects/WizardingCards.jpg',
+      year: 2024,
+      tags: ['Python', 'Discord Bot', 'MongoDB'],
+    },
+    {
+      id: getId(),
       name: 'Portfolio',
-      url: '/images/projects/Portfolio.jpg',
       repo: 'https://github.com/JamsRepos/Old-Portfolio',
       img: '/images/projects/Portfolio.jpg',
       year: 2022,
-      tags: ['HTML5', 'Tailwind', 'Craft CMS'],
+      tags: ['Twig', 'Tailwind', 'Craft CMS'],
     },
     {
       id: getId(),
       name: 'Paycord',
-      url: '/images/projects/Paycord.jpg',
       repo: 'https://github.com/WardPearce/Paycord',
       img: '/images/projects/Paycord.jpg',
       year: 2022,
@@ -288,8 +281,47 @@ export const projectsSection: ProjectsSectionType = {
     },
     {
       id: getId(),
+      name: 'DestinationCore',
+      url: 'https://destinationcore.com/',
+      img: '/images/projects/DestinationCore.jpg',
+      year: 2022,
+      tags: ['Twig', 'Tailwind', 'Craft CMS'],
+    },
+    {
+      id: getId(),
+      name: 'Lakeside Shopping',
+      url: 'https://lakeside-shopping.com/',
+      img: '/images/projects/LakesideShopping.jpg',
+      year: 2021,
+      tags: ['Twig', 'Tailwind', 'Craft CMS'],
+    },
+    {
+      id: getId(),
+      name: 'Newcastle Gateshead',
+      url: 'https://newcastlegateshead.com/',
+      img: '/images/projects/NewcastleGateshead.jpg',
+      year: 2021,
+      tags: ['Yii2', 'MySQL', 'Craft CMS'],
+    },
+    {
+      id: getId(),
+      name: 'Moving to Newcastle',
+      url: 'https://movingtonewcastle.co.uk/',
+      img: '/images/projects/MovingToNewcastle.jpg',
+      year: 2021,
+      tags: ['Twig', 'Bootstrap', 'Craft CMS'],
+    },
+    {
+      id: getId(),
+      name: 'Colchester Gift Card',
+      url: 'https://incolchester.co.uk/gift-card',
+      img: '/images/projects/ColchesterGiftCard.jpg',
+      year: 2021,
+      tags: ['Twig', 'CSS', 'Craft CMS'],
+    },
+    {
+      id: getId(),
       name: 'NexusNation',
-      url: '/images/projects/NexusNation.jpg',
       repo: 'https://github.com/JamsRepos/NexusNation-Website',
       img: '/images/projects/NexusNation.jpg',
       year: 2020,
@@ -298,7 +330,6 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Nexus League',
-      url: '/images/projects/NexusLeague.jpg',
       repo: 'https://github.com/NexusLeague',
       img: '/images/projects/NexusLeague.jpg',
       year: 2018,
@@ -307,20 +338,20 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Nodeblast',
-      url: '/images/projects/Nodeblast.jpg',
-      repo: 'https://web.archive.org/web/20160819124041/https://nodeblast.com/',
+      url: 'https://web.archive.org/web/20160819124041/https://nodeblast.com/',
       img: '/images/projects/Nodeblast.jpg',
       year: 2015,
       tags: ['HTML5', 'Bootstrap', 'PHP'],
     },
   ],
+  footer: 'Interested in learning more about a specific project? Feel free to reach out for detailed insights and my involvement.',
 };
 
 // * Contact Section
 
 export const contactSection: ContactSectionType = {
-  title: 'get in touch',
-  subtitle: "Want to talk?",
+  title: 'How to Reach Me',
+  subtitle: 'Want to talk?',
   paragraphs: [
     'While I’m not currently seeking new opportunities, I appreciate your interest in my work. If you’d like to chat or have any questions, please don’t hesitate to get in touch.',
     'You can reach me directly by clicking the button below. Alternatively, if you prefer to chat informally, feel free to drop me a message on my LinkedIn.',
