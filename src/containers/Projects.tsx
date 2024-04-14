@@ -48,14 +48,6 @@ const Projects = () => {
         })}
       </div>
 
-      <motion.p
-        className="text-sm text-center mt-12"
-        initial="hidden"
-        animate="show"
-      >
-        {footer}
-      </motion.p>
-
       {projects.length > PROJECTS_INITIALLY && (
         <Button
           size="lg"
@@ -66,6 +58,14 @@ const Projects = () => {
           {showMore ? 'show less' : 'show more'}
         </Button>
       )}
+
+      <motion.p
+        className="text-sm text-center mt-6"
+        initial="hidden"
+        animate="show"
+      >
+        {footer}
+      </motion.p>
     </Wrapper>
   );
 };
