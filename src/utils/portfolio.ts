@@ -170,7 +170,7 @@ export const experienceSection: ExperienceSectionType = {
   title: 'Where I\'ve Worked',
   experiences: [
     {
-      company: 'IriusRisk',
+      company: 'Irius Risk',
       companyUrl: 'https://www.iriusrisk.com/',
       role: 'Product Support Engineer',
       started: 'April 2024',
