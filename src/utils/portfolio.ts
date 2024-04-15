@@ -40,8 +40,8 @@ export const seoData = {
     'James',
     'James Finch',
     'James David Finch',
-    '@JamsSocials',
     'jamesfinch',
+    'jamesdavidfinch',
     'Portfolio',
     'James Portfolio',
     'James Finch Portfolio',
@@ -169,6 +169,16 @@ export const skillsSection: SkillsSectionType = {
 export const experienceSection: ExperienceSectionType = {
   title: 'Where I\'ve Worked',
   experiences: [
+    {
+      company: 'IriusRisk',
+      companyUrl: 'https://www.iriusrisk.com/',
+      role: 'Product Support Engineer',
+      started: 'April 2024',
+      upto: 'Present',
+      tasks: [
+        'Details to follow, currently within the training phase.'
+      ],
+    },
     {
       company: 'Proofpoint',
       companyUrl: 'https://proofpoint.com/',
