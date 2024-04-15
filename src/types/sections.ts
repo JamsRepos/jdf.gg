@@ -55,7 +55,6 @@ export interface ExperienceSectionType extends Section {
 
 export interface ProjectsSectionType extends Section {
   title: string;
-  footer: string;
   projects: ProjectType[];
 }
 

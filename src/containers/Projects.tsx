@@ -7,7 +7,7 @@ import { projectsSection } from '../utils/portfolio';
 import { getSectionAnimation, projectVariants } from '../animations';
 
 const Projects = () => {
-  const { projects, title, footer } = projectsSection;
+  const { title, projects } = projectsSection;
   const [showMore, setShowMore] = useState(false);
   const topProjects = projects.slice(0, PROJECTS_INITIALLY);
 
@@ -58,14 +58,6 @@ const Projects = () => {
           {showMore ? 'show less' : 'show more'}
         </Button>
       )}
-
-      <motion.p
-        className="text-sm text-center mt-6"
-        initial="hidden"
-        animate="show"
-      >
-        {footer}
-      </motion.p>
     </Wrapper>
   );
 };

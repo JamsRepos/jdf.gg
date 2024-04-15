@@ -268,6 +268,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Wizarding Cards',
+      desc: 'Created a Discord bot that allows users to collect and trade virtual cards as well as a website to view their collection.',
       url: 'https://wizarding.cards/',
       img: '/images/projects/WizardingCards.jpg',
       year: 2024,
@@ -276,6 +277,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Portfolio',
+      desc: 'Developed a personal portfolio website to showcase my skills and experience with my own artistic flair.',
       repo: 'https://github.com/JamsRepos/Old-Portfolio',
       img: '/images/projects/Portfolio.jpg',
       year: 2022,
@@ -284,6 +286,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Paycord',
+      desc: 'Built the front-end for a payment processing system that allows server owners to accept payments for their Discord servers.',
       repo: 'https://github.com/WardPearce/Paycord',
       img: '/images/projects/Paycord.jpg',
       year: 2022,
@@ -292,6 +295,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'DestinationCore',
+      desc: 'Crafted the agency website for DestinationCore, a company that specializes in destination marketing.',
       url: 'https://destinationcore.com/',
       img: '/images/projects/DestinationCore.jpg',
       year: 2022,
@@ -300,6 +304,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Lakeside Shopping',
+      desc: 'Built the website for Lakeside Shopping, a shopping centre in Essex from a Figma design before handing it off to the client.',
       url: 'https://lakeside-shopping.com/',
       img: '/images/projects/LakesideShopping.jpg',
       year: 2021,
@@ -308,6 +313,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Newcastle Gateshead',
+      desc: 'Performed vital performance improvements to the Newcastle Gateshead website, resulting in a 50% increase in page speed.',
       url: 'https://newcastlegateshead.com/',
       img: '/images/projects/NewcastleGateshead.jpg',
       year: 2021,
@@ -316,6 +322,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Moving to Newcastle',
+      desc: 'Created an additional website for Newcastle Gateshead to help people moving to the area.',
       url: 'https://movingtonewcastle.co.uk/',
       img: '/images/projects/MovingToNewcastle.jpg',
       year: 2021,
@@ -324,6 +331,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Colchester Gift Card',
+      desc: 'Developed a website for the Colchester Gift Card, a gift card that can be used at over 100 businesses in Colchester.',
       url: 'https://incolchester.co.uk/gift-card',
       img: '/images/projects/ColchesterGiftCard.jpg',
       year: 2021,
@@ -332,6 +340,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'NexusNation',
+      desc: 'Built and owned a gaming community that served over 1.5 million unique users, providing a unique gaming experience and fostered a loyal community.',
       repo: 'https://github.com/JamsRepos/NexusNation-Website',
       img: '/images/projects/NexusNation.jpg',
       year: 2020,
@@ -340,6 +349,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Nexus League',
+      desc: 'Built the front-end for a competitive gaming league that hosted tournaments for the NexusNation community and players from around the world.',
       repo: 'https://github.com/NexusLeague',
       img: '/images/projects/NexusLeague.jpg',
       year: 2018,
@@ -348,13 +358,13 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'Nodeblast',
+      desc: 'Founded and crafted a server hosting company that captured the majority of the market share for server hosting in the popular game Garry’s Mod and other Source Engine games.',
       url: 'https://web.archive.org/web/20160819124041/https://nodeblast.com/',
       img: '/images/projects/Nodeblast.jpg',
       year: 2015,
       tags: ['HTML5', 'Bootstrap', 'PHP'],
     },
   ],
-  footer: 'Interested in learning more about a specific project? Feel free to reach out for detailed insights and my involvement.',
 };
 
 // * Contact Section
