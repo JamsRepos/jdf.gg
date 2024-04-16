@@ -1,7 +1,7 @@
+import AuthorImage from './ui/AuthorImage';
 import Button from './buttons/Button';
 import Cursor from './ui/Cursor';
 import DarkModeButton from './buttons/DarkModeButton';
-import HeroImage from './ui/HeroImage';
 import Link from './buttons/Link';
 import ListItem from './lists/ListItem';
 import NavButton from './buttons/NavButton';
@@ -17,21 +17,21 @@ import TabList from './lists/TabList';
 import Wrapper from './ui/Wrapper';
 
 export {
+  AuthorImage,
   Button,
   Cursor,
-  NavButton,
-  ShowLottie,
-  SkillIcon,
+  DarkModeButton,
+  Link,
   ListItem,
-  HeroImage,
-  Sidebar,
-  SocialLink,
-  Skill,
-  TabList,
-  Wrapper,
-  SocialIcon,
+  NavButton,
   ProjectCard,
   SEO,
-  Link,
-  DarkModeButton,
+  ShowLottie,
+  Sidebar,
+  Skill,
+  SkillIcon,
+  SocialIcon,
+  SocialLink,
+  TabList,
+  Wrapper,
 };
