@@ -11,7 +11,7 @@ const Custom404 = () => {
           page not found
         </p>
 
-        <Button type="link" href="/" size="lg" className="mt-20" sameTab center>
+        <Button type="link" href="/" size="lg" className="mt-6" sameTab center>
           go home
         </Button>
       </div>
