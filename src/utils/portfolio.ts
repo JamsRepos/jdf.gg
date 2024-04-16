@@ -31,8 +31,8 @@ export const author = {
 };
 
 export const seoData = {
-  title: author.name + ' | Versatile IT Professional with Expertise in Web Development, Cyber Security, and IT Support.',
-  description: author.name + ' is a versatile and self-taught IT professional with extensive experience across multiple sectors. From web development to cyber security and IT support, James’s broad skill set and passion for learning make him a valuable asset to any team.',
+  title: author.name + '\'s Portfolio',
+  description: 'Transforming businesses with innovative and secure IT solutions.',
   author: author.name,
   image: '/images/portraits/greyscale.jpg',
   url: 'https://jdf.gg/',
@@ -67,7 +67,6 @@ export const navbarSection: NavbarSectionType = {
   ],
   cta: {
     title: 'Curriculum Vitae',
-    // url: `#`,
     url: `/${resumeFileName}`,
   },
 };
@@ -77,9 +76,8 @@ export const navbarSection: NavbarSectionType = {
 export const heroSection: HeroSectionType = {
   subtitle: 'Hey 👋! My name is...',
   title: author.name + '.',
-  tagline: 'Transforming businesses with innovative and secure IT solutions.',
-  description:
-    "As a former front-end developer turned cyber security engineer, I specialize in Unix systems and cyber security. Skilled in Craft CMS, Tailwind, NPM, and Webpack, I bring a passion for problem-solving and continuous learning to any team.",
+  tagline: seoData.description,
+  description: 'I am a versatile and self-taught IT professional with extensive experience across multiple sectors. From web development to cyber security and IT support, my broad skill set and passion for learning make me a valuable asset to any team.',
   // specialText: 'Currently available for remote job & freelance',
   // either button or simple text (information)
   // cta: {
@@ -94,6 +92,16 @@ export const heroSection: HeroSectionType = {
 export const aboutSection: AboutSectionType = {
   title: 'Who I Am',
   img: '/images/portraits/greyscale.jpg',
+  // list: {
+  //   title: 'Here are a few of my skills:',
+  //   items: [
+  //     'Web Development',
+  //     'Software Development',
+  //     'Systems & Infrastructure',
+  //     'Cyber Security',
+  //     'IT Support',
+  //   ],
+  // },
 };
 
 // * Skills Section
