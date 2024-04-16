@@ -13,7 +13,7 @@ import Skill from './skills/Skill';
 import SkillIcon from './skills/SkillIcon';
 import SocialIcon from './socials/SocialIcon';
 import SocialLink from './socials/SocialLink';
-import Tablist from './lists/Tablist';
+import TabList from './lists/TabList';
 import Wrapper from './ui/Wrapper';
 
 export {
@@ -27,7 +27,7 @@ export {
   Sidebar,
   SocialLink,
   Skill,
-  Tablist,
+  TabList,
   Wrapper,
   SocialIcon,
   ProjectCard,

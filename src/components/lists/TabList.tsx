@@ -9,7 +9,7 @@ type Props = {
   experiences: ExperienceType[];
 };
 
-const Tablist = ({ experiences }: Props) => {
+const TabList = ({ experiences }: Props) => {
   const [activeExperience, setActiveExperience] = useState(0);
   const windowWidth = useWindowWidth();
 
@@ -74,4 +74,4 @@ const Tablist = ({ experiences }: Props) => {
   );
 };
 
-export default Tablist;
+export default TabList;

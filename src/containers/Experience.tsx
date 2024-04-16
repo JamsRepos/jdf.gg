@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Tablist } from '../components';
+import { TabList } from '../components';
 import { getSectionAnimation } from '../animations';
 import { experienceSection } from '../utils/portfolio';
 
@@ -11,7 +11,7 @@ const Experience = () => {
       {...getSectionAnimation}
     >
       <h2 className="heading-secondary">{experienceSection.title}</h2>
-      <Tablist experiences={experienceSection.experiences} />
+      <TabList experiences={experienceSection.experiences} />
     </motion.section>
   );
 };
