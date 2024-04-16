@@ -1,7 +1,7 @@
 import { motion, MotionProps } from 'framer-motion';
-import { ListItem, ShowLottie, SkillIcon } from '.';
-import { SoftwareSkillType } from '../types';
-import { getId } from '../utils/helper';
+import { ListItem, ShowLottie, SkillIcon } from '..';
+import { SoftwareSkillType } from '../../types';
+import { getId } from '../../utils/helper';
 
 type Props = {
   lottie?: any;

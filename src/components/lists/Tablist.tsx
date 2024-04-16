@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import Link from './Link';
+import Link from '../buttons/Link';
 import ListItem from './ListItem';
-import useWindowWidth from '../hooks/use-window-width';
-import { ExperienceType } from '../types';
-import { getBreakpointsWidth, getId } from '../utils/helper';
+import useWindowWidth from '../../hooks/use-window-width';
+import { ExperienceType } from '../../types';
+import { getBreakpointsWidth, getId } from '../../utils/helper';
 
 type Props = {
   experiences: ExperienceType[];
