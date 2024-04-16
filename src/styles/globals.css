@@ -19,6 +19,7 @@
     --color-bg-secondary-light: theme(colors.white/0.5);
     --color-accent: theme(colors.emerald.800);
     --color-accent-light: theme(colors.emerald.800/0.1);
+    --color-accent-torch: theme(colors.emerald.700/0.15);
     --color-text: theme(colors.zinc.600);
     --color-dark-1: theme(colors.zinc.900);
     --color-dark-2: theme(colors.zinc.700);
