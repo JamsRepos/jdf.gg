@@ -1,7 +1,5 @@
-import Email from './Email';
-import Footer from './Footer';
-import Navbar from './Navbar';
-import Social from './Social';
+import { Email, Footer, Navbar, Social } from '@/containers';
+
 import React from 'react';
 
 type Props = {

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import { Head, Html, Main, NextScript } from 'next/document';
 
 export default function Document() {
@@ -44,7 +45,7 @@ export default function Document() {
           sizes="16x16"
           href="/favicons/favicon-16x16.png"
         />
-        <script async src="/scripts/no-flash.js"></script>
+        <script src="/scripts/no-flash.js"></script>
       </Head>
       <body className="text-text bg-bg">
         <Main />

@@ -1,7 +1,9 @@
-import { getSectionAnimation } from '../animations';
-import { AuthorImage, ListItem, Wrapper } from '../components';
-import { getId } from '../utils/helper';
-import { aboutSection, author } from '../utils/portfolio';
+import { AuthorImage, ListItem, Wrapper } from '@/components';
+
+import { getSectionAnimation } from '@/animations';
+import { getId } from '@/utils/helper';
+import { aboutSection, author } from '@/utils/portfolio';
+
 import { useEffect, useState } from 'react';
 
 const About = () => {

@@ -1,12 +1,13 @@
-import { getSectionAnimation } from '../animations';
-import { Skill, Wrapper } from '../components';
-import themeContext from '../context/theme-context';
-import { skillsSection } from '../utils/portfolio';
-import { useContext } from 'react';
+import { useTheme } from '@/hooks/use-theme';
+
+import { Skill, Wrapper } from '@/components';
+
+import { getSectionAnimation } from '@/animations';
+import { skillsSection } from '@/utils/portfolio';
 
 const Skills = () => {
   const { title, skills } = skillsSection;
-  const { isDark } = useContext(themeContext);
+  const { isDarkMode } = useTheme();
 
   return (
     <Wrapper id="skills" {...getSectionAnimation}>
@@ -17,7 +18,7 @@ const Skills = () => {
           <Skill
             key={id}
             className="odd:lg:flex-row-reverse"
-            lottie={lottie[isDark ? 'dark' : 'light']}
+            lottie={lottie[isDarkMode ? 'dark' : 'light']}
             skills={softwareSkills}
             points={points}
             title={title}

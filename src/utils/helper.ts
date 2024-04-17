@@ -14,7 +14,6 @@ export const getBreakpointsWidth = (breakpoint: BreakpointType) => {
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
   return +fullConfig?.theme?.screens[breakpoint].slice(0, -2);
-  // ! Property 'sm' does not exist on type 'ResolvableTo<ScreensConfig>'
 };
 
 /**

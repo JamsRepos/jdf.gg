@@ -1,8 +1,11 @@
-import useWindowWidth from '../../hooks/use-window-width';
-import { ExperienceType } from '../../types';
-import { getBreakpointsWidth, getId } from '../../utils/helper';
-import Link from '../buttons/Link';
-import ListItem from './ListItem';
+import useWindowWidth from '@/hooks/use-window-width';
+
+import { Link, ListItem } from '@/components';
+
+import { getBreakpointsWidth, getId } from '@/utils/helper';
+
+import { ExperienceType } from '@/types';
+
 import { useState } from 'react';
 
 type Props = {

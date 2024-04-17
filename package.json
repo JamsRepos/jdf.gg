@@ -13,7 +13,7 @@
   "dependencies": {
     "-": "^0.0.1",
     "@lottiefiles/react-lottie-player": "^3.5.0",
-    "@vercel/analytics": "^1.0.0",
+    "@vercel/analytics": "^1.2.2",
     "clsx": "^2.0.0",
     "framer-motion": "^9.0.3",
     "husky": "^8.0.3",

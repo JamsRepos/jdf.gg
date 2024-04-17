@@ -1,9 +1,13 @@
-import { fadeIn, slideIn } from '../animations';
-import { Button, DarkModeButton, Link, NavButton } from '../components';
-import useWindowWidth from '../hooks/use-window-width';
-import { getBreakpointsWidth } from '../utils/helper';
-import { author, navbarSection } from '../utils/portfolio';
+import useWindowWidth from '@/hooks/use-window-width';
+
+import { Button, DarkModeButton, Link as CLink, NavButton } from '@/components';
+
+import { fadeIn, slideIn } from '@/animations';
+import { getBreakpointsWidth } from '@/utils/helper';
+import { author, navbarSection } from '@/utils/portfolio';
+
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 /**
@@ -53,14 +57,14 @@ const NavItem = ({ href, children, onClick, index, delay }: NavItemsProps) => {
       initial="hidden"
       animate="show"
     >
-      <Link
+      <CLink
         href={href || `/#${children}`}
         className="p-2 hover:text-accent duration-500 block"
         onClick={onClick}
         withPadding
       >
         {children}
-      </Link>
+      </CLink>
     </motion.li>
   );
 };

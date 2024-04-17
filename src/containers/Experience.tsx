@@ -1,5 +1,6 @@
+import { TabList } from '@/components';
+
 import { getSectionAnimation } from '../animations';
-import { TabList } from '../components';
 import { experienceSection } from '../utils/portfolio';
 import { motion } from 'framer-motion';
 
