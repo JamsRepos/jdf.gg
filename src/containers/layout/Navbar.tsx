@@ -9,15 +9,7 @@ import { Button, DarkModeButton, Link as CLink, NavButton } from '@/components';
 import { fadeIn, slideIn } from '@/styles/animations';
 
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 import { useEffect, useState } from 'react';
-
-/**
- * Hides the navbar while scrolling down
- * @param {Object} config
- * @param {String} [config.id=navbar] - id of navbar
- * @param {Number} [config.offset=100] - offset of navbar in px
- */
 
 const hideNavWhileScrolling = ({
   id = 'navbar',
@@ -51,26 +43,6 @@ type NavItemsProps = {
   onClick?: (event: React.MouseEvent) => void;
 };
 
-const NavItem = ({ href, children, onClick, index, delay }: NavItemsProps) => {
-  return (
-    <motion.li
-      className="group"
-      variants={slideIn({ delay: delay + index / 10, direction: 'down' })}
-      initial="hidden"
-      animate="show"
-    >
-      <CLink
-        href={href || `/#${children}`}
-        className="p-2 hover:text-accent duration-500 block"
-        onClick={onClick}
-        withPadding
-      >
-        {children}
-      </CLink>
-    </motion.li>
-  );
-};
-
 const Navbar = () => {
   const { cta, navLinks } = navbarSection;
   const [navbarCollapsed, setNavbarCollapsed] = useState(false);
@@ -83,6 +55,19 @@ const Navbar = () => {
     hideNavWhileScrolling({ when: !navbarCollapsed });
   }, [navbarCollapsed]);
 
+  const handleClick = (e: React.MouseEvent, id: string) => {
+    e.preventDefault();
+    if (id) {
+      const element = document.getElementById(id.toString());
+      if (element) {
+        window.scrollTo({
+          top: element.offsetTop,
+          behavior: 'smooth',
+        });
+      }
+    }
+  };
+
   return (
     <motion.header
       variants={fadeIn(0.5)}
@@ -92,10 +77,13 @@ const Navbar = () => {
       className="px-8 md:px-6 xl:px-12 py-4 fixed inset-x-0 top-0 right-0 flex justify-between items-end z-50 duration-500 backdrop-blur-lg"
     >
       <h1 className="font-signature text-accent capitalize text-2xl relative group top-1">
-        <Link href="/#hero" className="block">
+        <CLink
+          href="/#hero"
+          className="block"
+          onClick={(e) => handleClick(e, 'hero')}
+        >
           {author.name}
-          <div className="absolute bottom-1.5 left-0 h-[1px] w-0 group-hover:w-full bg-accent duration-300"></div>
-        </Link>
+        </CLink>
       </h1>
 
       <NavButton
@@ -116,6 +104,7 @@ const Navbar = () => {
                 index={i}
                 delay={ANIMATION_DELAY}
                 onClick={() => setNavbarCollapsed(false)}
+                handleClick={handleClick}
               >
                 {name}
               </NavItem>
@@ -151,6 +140,46 @@ const Navbar = () => {
         </nav>
       )}
     </motion.header>
+  );
+};
+
+const NavItem = ({
+  href,
+  children,
+  onClick,
+  index,
+  delay,
+  handleClick,
+}: NavItemsProps & {
+  handleClick: (e: React.MouseEvent, id: string) => void;
+}) => {
+  const handleLinkClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const id = href?.replace('/#', '') || children;
+    if (id) {
+      handleClick(e, id.toString());
+    }
+
+    if (onClick) {
+      onClick(e);
+    }
+  };
+
+  return (
+    <motion.li
+      className="group"
+      variants={slideIn({ delay: delay + index / 10, direction: 'down' })}
+      initial="hidden"
+      animate="show"
+    >
+      <CLink
+        href={href || `/#${children}`}
+        className="p-2 hover:text-accent duration-500 block"
+        onClick={handleLinkClick}
+      >
+        {children}
+      </CLink>
+    </motion.li>
   );
 };
 

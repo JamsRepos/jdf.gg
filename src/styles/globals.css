@@ -43,10 +43,6 @@
     font-family: 'agustina';
     src: url('/fonts/Agustina-Signature.otf') format('opentype');
   }
-
-  * {
-    @apply focus:outline-dashed outline-[3px] outline-offset-4 outline-accent;
-  }
 }
 
 /* TYPOGRAPHY */
