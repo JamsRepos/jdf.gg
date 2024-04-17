@@ -1,13 +1,13 @@
-import { motion } from 'framer-motion';
-import { TabList } from '../components';
 import { getSectionAnimation } from '../animations';
+import { TabList } from '../components';
 import { experienceSection } from '../utils/portfolio';
+import { motion } from 'framer-motion';
 
 const Experience = () => {
   return (
     <motion.section
       id="experience"
-      className="py-32 max-w-2xl mx-auto"
+      className="py-32 max-w-3xl mx-auto"
       {...getSectionAnimation}
     >
       <h2 className="heading-secondary">{experienceSection.title}</h2>

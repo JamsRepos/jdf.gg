@@ -1,5 +1,5 @@
-import { BreakpointType, ProjectType } from '../types';
 import tailwindConfig from '../../tailwind.config';
+import { BreakpointType, ProjectType } from '../types';
 import resolveConfig from 'tailwindcss/resolveConfig';
 
 const fullConfig = resolveConfig(tailwindConfig);
@@ -11,6 +11,7 @@ const fullConfig = resolveConfig(tailwindConfig);
  */
 
 export const getBreakpointsWidth = (breakpoint: BreakpointType) => {
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
   return +fullConfig?.theme?.screens[breakpoint].slice(0, -2);
   // ! Property 'sm' does not exist on type 'ResolvableTo<ScreensConfig>'

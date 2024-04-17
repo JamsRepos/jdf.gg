@@ -1,8 +1,8 @@
-import type { AppProps } from 'next/app';
-import { Analytics } from '@vercel/analytics/react';
+import '../styles/globals.css';
 import { Cursor } from '../components';
 import { ThemeProvider } from '../context/theme-context';
-import '../styles/globals.css';
+import { Analytics } from '@vercel/analytics/react';
+import type { AppProps } from 'next/app';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (

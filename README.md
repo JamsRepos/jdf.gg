@@ -31,7 +31,7 @@
   <a href="https://choosealicense.com/licenses/mit/" target="_blank">
     <img src="https://img.shields.io/badge/License-MIT-brightgreen"/ >
   </a>
-  <img src="https://img.shields.io/badge/Version-1.3.1-blue"/ >
+  <img src="https://img.shields.io/badge/Version-2.0.0-blue"/ >
 </p>
 
 [![My Portfolio](https://raw.githubusercontent.com/JamsRepos/jdf.gg/main/public/images/projects/Site.jpg)](https://jdf.gg/)
@@ -60,19 +60,19 @@
 
 3. Install dependencies to ensure the project starts properly.
 
-    ```bash
-      yarn
-    ```
+   ```bash
+     yarn
+   ```
 
 4. Start your local development environment, the URL will be posted in your console.
 
-    ```bash
-      yarn dev
-    ```
+   ```bash
+     yarn dev
+   ```
 
 #### Editing Content
 
-- To change the content, edit `src/utils/portfolio.ts`.
+- To change the content, edit `src/lib/utils/portfolio.ts`.
 
 - To change the **resume**, change `/public/resume.pdf` with your resume, edit the name of this in `/src/utils/config.ts`.
 
@@ -85,6 +85,7 @@
 As a developer turned cyber security engineer, I found myself short on time to maintain my own portfolio website while working on new projects and my full-time job. My personal portfolio site had also become neglected over time, and I realized that it was better to support and provide more eyes on developers who can allocate more time into making perfect free and open-source repositories.
 
 That's why I decided to fork this portfolio website from [Vatsal Signh](https://vatsalsinghkv.vercel.app/) and customize it to fit my needs. I am grateful to the original author for making this portfolio website available as open source and for the inspiration it provided for my own portfolio.
+
 ## Acknowledgements
 
 - [Vatsal Signh](https://github.com/vatsalsinghkv/portfolio-website) - Initial Fork.

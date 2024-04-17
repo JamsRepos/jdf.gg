@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from 'next/document';
+import { Head, Html, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
@@ -44,7 +44,7 @@ export default function Document() {
           sizes="16x16"
           href="/favicons/favicon-16x16.png"
         />
-        <script src="/scripts/no-flash.js"></script>
+        <script async src="/scripts/no-flash.js"></script>
       </Head>
       <body className="text-text bg-bg">
         <Main />

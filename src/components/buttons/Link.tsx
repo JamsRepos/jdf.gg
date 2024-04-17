@@ -9,7 +9,7 @@ const Link = ({
   href,
   className = '',
   children,
-  onClick = () => { },
+  onClick = () => {},
   withPadding = false,
   ...rest
 }: Props) => {

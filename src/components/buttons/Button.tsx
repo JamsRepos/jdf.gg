@@ -1,11 +1,10 @@
-import Link from 'next/link';
-import { motion, MotionProps } from 'framer-motion';
 import { removeKeys } from '../../utils/helper';
+import { motion, MotionProps } from 'framer-motion';
+import Link from 'next/link';
 
 interface DefaultProps {
   children: React.ReactNode | string;
   className?: string;
-  variant?: 'solid' | 'outlined';
   size?: 'lg' | 'sm';
   center?: boolean;
 }
@@ -21,11 +20,11 @@ interface ButtonProps extends DefaultProps {
 
 type Props =
   | ({
-    type?: 'button';
-  } & ButtonProps)
+      type?: 'button';
+    } & ButtonProps)
   | ({
-    type: 'link';
-  } & LinkProps);
+      type: 'link';
+    } & LinkProps);
 
 // For separating animation props from button props
 const buttonProps: Array<keyof Props | keyof LinkProps> = [
@@ -33,7 +32,6 @@ const buttonProps: Array<keyof Props | keyof LinkProps> = [
   'children',
   'className',
   'size',
-  'variant',
   'type',
   'href',
 ];
@@ -43,17 +41,17 @@ const Button = (props: Props & MotionProps) => {
     className,
     children,
     type = 'button',
-    variant = 'solid',
     size = 'sm',
     center = false,
-    ...rest
   } = props;
 
-  const classes = `${size === 'sm'
+  const classes = `${
+    size === 'sm'
       ? 'p-2 px-4 text-sm border-[1.5px] '
       : 'text-sm p-4 px-6 border-2'
-    } block ${center ? 'mx-auto' : ''
-    } w-fit font-mono capitalize rounded border-accent text-accent hover:bg-accent-light focus:outline-none focus:bg-accent-light duration-150 cursor-pointer ${className}`;
+  } block ${
+    center ? 'mx-auto' : ''
+  } w-fit font-mono capitalize rounded border-accent text-accent hover:bg-accent-light focus:outline-none focus:bg-accent-light duration-150 cursor-pointer ${className}`;
 
   // TODO: Needs to improve this framer motion logic
   if (props.type === 'link') {

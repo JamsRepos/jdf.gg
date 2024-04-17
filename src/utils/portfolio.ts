@@ -1,3 +1,4 @@
+import { StringKeyValueType } from '../types';
 import {
   AboutSectionType,
   ContactSectionType,
@@ -9,7 +10,6 @@ import {
   SkillsSectionType,
   SocialSectionType,
 } from '../types/sections';
-import { StringKeyValueType } from '../types';
 import { resumeFileName } from './config';
 import { getId } from './helper';
 
@@ -31,8 +31,9 @@ export const author = {
 };
 
 export const seoData = {
-  title: author.name + '\'s Portfolio',
-  description: 'Transforming businesses with innovative and secure IT solutions.',
+  title: author.name + "'s Portfolio",
+  description:
+    'Transforming businesses with innovative and secure IT solutions.',
   author: author.name,
   image: '/images/portraits/greyscale.jpg',
   url: 'https://jdf.gg/',
@@ -77,7 +78,8 @@ export const heroSection: HeroSectionType = {
   subtitle: 'Hey 👋! My name is...',
   title: author.name + '.',
   tagline: seoData.description,
-  description: 'I am a versatile and self-taught IT professional with extensive experience across multiple sectors. From web development to cyber security and IT support, my broad skill set and passion for learning make me a valuable asset to any team.',
+  description:
+    'I am a versatile and self-taught IT professional with extensive experience across multiple sectors. From web development to cyber security and IT support, my broad skill set and passion for learning make me a valuable asset to any team.',
   // specialText: 'Currently available for remote job & freelance',
   // either button or simple text (information)
   // cta: {
@@ -107,7 +109,7 @@ export const aboutSection: AboutSectionType = {
 // * Skills Section
 
 export const skillsSection: SkillsSectionType = {
-  title: 'What I\'ve Used',
+  title: "What I've Used",
   skills: [
     {
       id: getId(),
@@ -175,7 +177,7 @@ export const skillsSection: SkillsSectionType = {
 // * Experience Section
 
 export const experienceSection: ExperienceSectionType = {
-  title: 'Where I\'ve Worked',
+  title: "Where I've Worked",
   experiences: [
     {
       company: 'Irius Risk',
@@ -183,9 +185,7 @@ export const experienceSection: ExperienceSectionType = {
       role: 'Product Support Engineer',
       started: 'April 2024',
       upto: 'Present',
-      tasks: [
-        'Details to follow, currently within the training phase.'
-      ],
+      tasks: ['Details to follow, currently within the training phase.'],
     },
     {
       company: 'Proofpoint',
@@ -228,7 +228,8 @@ export const experienceSection: ExperienceSectionType = {
     },
     {
       company: 'NexusNation',
-      companyUrl: 'https://web.archive.org/web/20201122115314/https://nexusnation.gg/',
+      companyUrl:
+        'https://web.archive.org/web/20201122115314/https://nexusnation.gg/',
       role: 'Founder & Lead Developer',
       started: 'August 2013',
       upto: 'June 2021',
@@ -254,7 +255,8 @@ export const experienceSection: ExperienceSectionType = {
     },
     {
       company: 'Nodeblast',
-      companyUrl: 'https://web.archive.org/web/20160819124041/https://nodeblast.com/',
+      companyUrl:
+        'https://web.archive.org/web/20160819124041/https://nodeblast.com/',
       role: 'Director & Lead Technician',
       started: 'December 2015',
       upto: 'December 2016',
@@ -271,7 +273,7 @@ export const experienceSection: ExperienceSectionType = {
 // * Projects Section
 
 export const projectsSection: ProjectsSectionType = {
-  title: 'What I\'ve Done',
+  title: "What I've Done",
   projects: [
     {
       id: getId(),
