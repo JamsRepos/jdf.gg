@@ -1,6 +1,7 @@
 'use client';
+import { aboutSection } from '@/lib/content/about';
+import { author } from '@/lib/content/portfolio';
 import { getId } from '@/lib/utils/helper';
-import { aboutSection, author } from '@/lib/utils/portfolio';
 
 import { AuthorImage, ListItem, Wrapper } from '@/components';
 

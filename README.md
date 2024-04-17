@@ -72,7 +72,7 @@
 
 #### Editing Content
 
-- To change the content, edit `src/lib/utils/portfolio.ts`.
+- To change the content, edit `src/lib/content/`.
 
 - To change the **resume**, change `/public/resume.pdf` with your resume, edit the name of this in `/src/utils/config.ts`.
 
