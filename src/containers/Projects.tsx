@@ -1,3 +1,4 @@
+'use client';
 import { PROJECTS_INITIALLY } from '@/lib/utils/config';
 import { sortByYear } from '@/lib/utils/helper';
 import { projectsSection } from '@/lib/utils/portfolio';
