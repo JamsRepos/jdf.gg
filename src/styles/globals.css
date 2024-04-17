@@ -5,14 +5,6 @@
 @layer base {
   /* Color variables for future use */
   :root {
-    /* --color-bg: #fcfaf8; */
-    /* --color-accent: #14cf93; */
-    /* --color-accent: ##64ffda; */
-    /* --color-accent: #61dafb); */
-    /* --color-text: #383838; */
-    /* --color-dark-2: #282828; */
-    /* --color-dark-3: #a2a2a2; */
-
     /* Light Theme */
     --color-bg: theme(colors.zinc.300);
     --color-bg-secondary: theme(colors.white);
@@ -23,7 +15,7 @@
     --color-text: theme(colors.zinc.600);
     --color-dark-1: theme(colors.zinc.900);
     --color-dark-2: theme(colors.zinc.700);
-    --color-dark-3: theme(colors.zinc.300);
+    --color-dark-3: theme(colors.zinc.400);
   }
 
   /* Dark Theme */
