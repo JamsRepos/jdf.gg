@@ -7,7 +7,6 @@ import { StringKeyValueType } from '@/lib/types';
  */
 
 export const socialLinks: StringKeyValueType = {
-  twitter: 'https://twitter.com/JamsPosts',
   github: 'https://github.com/JamsRepos',
   linkedin: 'https://www.linkedin.com/in/james-david-finch/',
 };
